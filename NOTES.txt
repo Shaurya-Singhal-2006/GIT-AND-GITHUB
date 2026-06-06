@@ -1,0 +1,20 @@
+CONFIGURING GIT 
+
+1. git config --global user.name "USERNAME(Shaurya-Singhal-2006)"  --> name used when we commit changes 
+
+2. git config --global user.email "EMAIL"                          --> email in which we want to commit changes
+
+3. git config --list                                               --> to confirm all the changes and check all the permissions
+
+4. cd                                                              --> change directory is used to change between different repo in the main folder
+
+
+
+5. Clone                                                           --> cloning a repository on out local machine 
+EG : git clone <link>
+
+6. Status                                                          --> shows the current status of the code (which file is not updated or etccc)
+EG : git status  
+
+
+
