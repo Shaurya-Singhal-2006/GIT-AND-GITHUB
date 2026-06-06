@@ -1,5 +1,3 @@
-<<<<<<< HEAD
 THIS IS A CONFLICT FROM MAIN
-=======
 THIS IS A CONFLICT FROM PULL REQUEST
->>>>>>> pull-request
+
