@@ -8,13 +8,56 @@ CONFIGURING GIT
 
 4. cd                                                              --> change directory is used to change between different repo in the main folder
 
+5. ls                                                              --> list all the files in the directory 
 
 
-5. Clone                                                           --> cloning a repository on out local machine 
+STATUS OF THE FILES 
+
+UNTRACKED  --> new files that git doesn't yet track              |
+MODIFIED   --> changes have been made in already existing file   |
+STAGED     --> file is ready to be commited                      |
+UNMODIFIED --> unchanged                                         |
+
+
+
+6. Clone                                                           --> cloning a repository on out local machine 
 EG : git clone <link>
 
-6. Status                                                          --> shows the current status of the code (which file is not updated or etccc)
+7. Status                                                          --> shows the current status of the code (which file is not updated or etccc)\
 EG : git status  
+
+8. Add                                                             --> adds new or changed files in your working directory to the git staging already
+EG : git add <FILENAME>   OR git add . (adds all file)
+
+9. Commit                                                          --> it is the record of change
+EG : git commit -m "MESSAGES"
+
+10. Push                                                           --> upload local repository content to remote repo (github) 
+EG : git push origin main
+
+ORIGIN --> name of copy of our repo i=on github
+MAIN --> branch 
+
+
+
+
+INIT COMMAND
+
+init --> used to create new git repo
+
+1. git init                                             --> to make the repo git repository
+
+2. git remote add origin <LINK>                         --> setting the new origin (now origin is the new repo)
+
+3. git remote -v                                        --> to verify remote (we are using which repo)
+
+4. git branch                                           --> to check branch 
+EG : (BUG FIX TEAM , FEATURE 1 TEAM , FEATURE 2 TEAM , THEY WORK ON COPIES OF THE PROJECT WHICH WE CALL BRANCH)
+
+5. git branch -M main                                   --> to rename branch
+
+6. git push origin main OR (git push -u origin main) -u --> set upstream so we dont write origin main again and again we just need to wite {git push}
+
 
 
 
