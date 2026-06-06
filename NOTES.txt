@@ -60,4 +60,10 @@ EG : (BUG FIX TEAM , FEATURE 1 TEAM , FEATURE 2 TEAM , THEY WORK ON COPIES OF TH
 
 
 
+MERGING CODE 
 
+way 1 
+
+git diff <BRANCH_NAME>    --> to compare commit,branch,files and more
+
+git merge <BRANCH_NAME>   --> to merge two branches 
